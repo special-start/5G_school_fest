@@ -6,6 +6,6 @@
 ├── subpages/
 │   ├── about.html
 │   └── reservation.html
-├── style.cs
+├── style.css
 └── script.js
 ```
