@@ -167,3 +167,56 @@ header::after {
         font-size: 18px;
     }
 }
+
+
+/* アクティブなナビリンク */
+.nav-menu a.active {
+    color: #ffffff;
+    position: relative;
+}
+
+.nav-menu a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffcc33;
+}
+
+/* Aboutページ用調整 */
+.about-hero {
+    padding: 140px 40px 120px;
+}
+
+.about-description {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 80px;
+    font-size: 21px;
+    line-height: 2;
+}
+
+.about-description h3 {
+    font-size: 28px;
+    margin: 50px 0 20px 0;
+    color: #ffcc33;
+}
+
+.about-description ul {
+    margin: 25px 0;
+    padding-left: 30px;
+}
+
+.about-description li {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.about-description li::before {
+    content: '・';
+    position: absolute;
+    left: -20px;
+    color: #00ff9d;
+}
