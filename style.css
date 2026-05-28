@@ -100,10 +100,11 @@ header::after {
     font-weight: 900;
     margin-bottom: 60px;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     gap: 20px;
     line-height: 1.1;
+    padding:30px;
 }
 
 .title-bar {
