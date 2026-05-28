@@ -3,6 +3,8 @@
 ```
 .
 ├── index.html
+├── headernavi.html
+├── footernavi.html
 ├── subpages/
 │   ├── about.html
 │   └── reservation.html
